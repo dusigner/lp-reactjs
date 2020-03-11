@@ -1,0 +1,64 @@
+.edge-title.left {
+    text-align: left;
+}
+.edge-title.center {
+    text-align: center;
+}
+.edge-title.right {
+    text-align: right;
+}
+
+.edge-title h2 {
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 60px;
+    position: relative;
+
+    display: inline-block;
+
+    margin: 6px 0 6px 0;
+    padding: 0 7px 0;
+
+    background: #fff;
+    color: #000;
+}
+
+.edge-title span h2:last-child::before {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(93.22deg, #F08B1D 49.94%, #DB882A 136.63%);
+}
+
+.edge-title .mobile {
+    display: block;
+}
+
+.edge-title .desktop {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    .edge-title h2 {
+        font-size: 48px;
+        line-height: 82px;
+    }
+
+    .edge-title span h2:last-child::before {
+        height: 10px;
+        bottom: -10px;
+    }
+
+    .edge-title .mobile {
+        display: none;
+    }
+    .edge-title .desktop {
+        display: block;
+    }
+}

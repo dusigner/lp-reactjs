@@ -1,0 +1,60 @@
+.capacidade {
+    padding: 125px 0 72px;
+    background: #000;
+}
+
+.capacidade p {
+    text-align: center;
+    color: #fff;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 0 0 40px 0;
+}
+
+.capacidade p .mobile {
+    display: block;
+}
+.capacidade p .desktop {
+    display: none;
+}
+
+.capacidade .edge-title{
+    margin-bottom: 25px;
+}
+
+.capacidade .border-displaced {
+    width: 310px;
+    margin: 0 auto;
+} 
+
+@media (min-width: 768px) {
+    .capacidade {
+        padding: 125px 40px 102px;
+    }
+
+    .capacidade p {
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    .capacidade p .mobile {
+        display: none;
+    }
+    .capacidade p .desktop {
+        display: block;
+    }
+
+    .capacidade .edge-title{
+        margin-bottom: 51px;
+    }
+
+    .capacidade .border-displaced {
+        max-width: 830px;
+        width: 100%;
+        margin: 0 auto;
+    } 
+
+}
